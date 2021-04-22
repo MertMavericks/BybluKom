@@ -1,0 +1,147 @@
+body{
+	background: url("img/back.png");
+	background-attachment: fixed;
+	background-size: 100%;
+	line-height: 1.6;
+    background-position: top;
+}
+
+
+
+.container{
+    width:100%;
+    min-width: 1600px;
+    margin:0 auto;
+}
+
+.header {}
+.cont_top {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.header_logo {
+    color: #0ff;
+    margin: 20px 0px 0px 100px;
+    font-family: arial; 
+    font-size: 40px;
+    height: 100%;
+
+}
+.nav {
+    margin: 10px;
+    font-size: 30px;
+    height: 100%;
+}
+.nav a{
+    margin: 10px;
+    text-decoration: none;
+    transition-duration: .5s;
+    color: #05eafa;
+}
+.nav a:hover{
+    transition-duration: .5s;
+    color:#b50ec4;
+    text-decoration: underline;
+}
+.intro_suptitle {
+    color:#ff7b00;
+    text-align: center;
+    font-size: 28px;
+    margin:0;
+}
+.intro_title { 
+    color:#fce19d;
+    font-size: 60px;
+    margin:0;
+    height: 80px;
+    padding: 0;
+}
+.button_top {
+    display: inline-block;
+    outline: 1px solid #05ed8c;
+    padding: 5px;
+    font-size: 20px;
+    color:blue;
+    font-family: arial black;
+    transition-duration: .7s;
+    margin: 15px 0px 0px 0px;
+}
+.button_top:hover{
+    transition-duration: .5s;
+    outline: 1px solid #ed0776;
+    color:#b50ec4;
+}
+.cont_center{
+    margin: 100px 0px 0px 70px;
+    outline: 5px solid #fff700;
+    width:500px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.list_container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    font-family: comic sans ms;
+}
+.list_intro {
+    margin: 0px 0px 0px 70px;
+    color: #759e1b;
+}
+.list {
+    margin-left: 30px;
+}
+.li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #a4de28;
+}
+.title {
+    text-align: center;
+    font-family: comic sans ms;
+    font-size: 30px;
+    color:#759e1b;
+}
+.button_bottom {
+    width: 100%;
+    margin:50px auto;
+    text-align: center;
+}
+.butt {
+    text-align: center;
+    padding: 0px;
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+    background-color: #0d15fc; 
+    border-radius: 20px;
+    border-color: #750dfc;
+    box-shadow:2px 2px 5px #750dfc;
+    transition: 1s;
+}
+.butt:hover{
+    color:red;
+    background-color: yellow; 
+    transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
